@@ -1,0 +1,44 @@
+.app {
+  text-align: center;
+  margin-top: 20px;
+}
+.status {
+  margin-bottom: 10px;
+}
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #999;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+.board {
+  display: inline-block;
+  border: solid 3px #999;
+}
+
+.board-row {
+  display: flex;
+}
+.reset-button {
+  background-color: #0074e4; 
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px; 
+  cursor: pointer;
+  margin-top: 10px; 
+  border-radius: 5px; 
+}
+
+.reset-button:hover {
+  background-color: #0057a3; 
+}
