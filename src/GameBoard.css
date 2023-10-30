@@ -1,0 +1,33 @@
+.board {
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-rows: repeat(3, 1fr); */
+  /* gap: 5px; */
+  /* margin-top: 50px; */
+  /* margin-bottom: 20px; */
+  /* margin-left: 50px; */
+  /* grid-gap: 50px; */
+  justify-items: center;
+}
+div{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding-right:25px;
+  
+  }
+  .status{
+    color: aliceblue;
+  }
+  
+.board-row {
+  grid-gap: 50px;
+}

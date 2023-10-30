@@ -1,0 +1,41 @@
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-shadow: 0 0 10px #e6ece3;
+    break-after: column;
+}
+
+button {
+    display: block; 
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 200px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p{
+    background-color: #fff;
+    
+}
